@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Height of the primary text -->
+    <dimen name="primary_text_height">18sp</dimen>
+    <!-- Height of the secondary text -->
+    <dimen name="secondary_text_height">14sp</dimen>
+    <!-- List padding -->
+    <dimen name="list_padding">8dp</dimen>
+    <!-- Date and category text margin -->
+    <dimen name="info_text_margin">12dp</dimen>
+    <!-- Title text margin -->
+    <dimen name="title_text_margin">6dp</dimen>
+    <!-- List margin -->
+    <dimen name="list_margin">8dp</dimen>
+    <!-- Divider height -->
+    <dimen name="divider_height">8dp</dimen>
+</resources>

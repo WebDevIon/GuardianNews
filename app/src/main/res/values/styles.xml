@@ -1,0 +1,72 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- List view style. -->
+    <style name="list_view_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:divider">@null</item>
+        <item name="android:dividerHeight">@dimen/divider_height</item>
+        <item name="android:drawSelectorOnTop">true</item>
+        <item name="android:padding">@dimen/list_padding</item>
+    </style>
+
+    <!-- Empty item style. -->
+    <style name="empty_item_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+
+    <!-- List item style. -->
+    <style name="list_item_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/list_margin</item>
+        <item name="android:layout_marginRight">@dimen/list_margin</item>
+        <item name="android:layout_marginTop">@dimen/list_margin</item>
+        <item name="android:background">@drawable/bg_article</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">@dimen/list_padding</item>
+    </style>
+
+    <!-- Date text style. -->
+    <style name="date_text_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/info_text_margin</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">start</item>
+        <item name="android:textSize">@dimen/secondary_text_height</item>
+    </style>
+
+    <!-- Category text style. -->
+    <style name="category_text_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">@dimen/info_text_margin</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">@dimen/secondary_text_height</item>
+    </style>
+
+    <!-- Title text style. -->
+    <style name="title_text_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/title_text_margin</item>
+        <item name="android:layout_marginTop">@dimen/title_text_margin</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/primary_text_height</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

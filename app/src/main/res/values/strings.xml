@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">GuardianNews</string>
+
+    <!-- Text to display insted of the date when there is no date found. -->
+    <string name="unknown_date">Unknown date.</string>
+
+    <!-- Test placeholder text for the date. -->
+    <string name="date_test_placeholder">2017-04-18</string>
+
+    <!-- Test placeholder text for the section. -->
+    <string name="section_test_placeholder">Politics</string>
+
+    <!-- Test placeholder text for the title. -->
+    <string name="title_test_placeholder">Theresa May rules out participating in TV debates before election</string>
+
+    <!-- Error message when there is no internet connectivity -->
+    <string name="no_internet_connection">No internet connection.</string>
+
+    <!-- Text to display in the list when there are no articles -->
+    <string name="no_articles">No articles found.</string>
+
+    <!-- Settings Menu Item -->
+    <string name="settings_menu_item">Settings</string>
+
+    <!-- Settings Activity Title -->
+    <string name="settings_title">Article Settings</string>
+
+    <!-- Strings For Topic Preference -->
+    <string name="settings_topic_label">Topic</string>
+    <string name="settings_topic_key" translatable="false">topic</string>
+    <string name="settings_topic_default" translatable="false">politics</string>
+</resources>
